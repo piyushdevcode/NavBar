@@ -5,12 +5,12 @@ btnMenu.addEventListener(
   "click",
   function() {
     toggle = !toggle;
-    if(toggle){
-      navItems.classList.remove("menu-off");
+    if(toggle){                             // FOR Activating Menu
+    navItems.classList.remove("menu-off"); 
       // console.log("open-menu", navItems);
     }
-    else{
-      navItems.classList.add("menu-off");
+    else{                                 // FOR Deactivating Menu
+      navItems.classList.add("menu-off"); 
       // console.log("close-menu",navItems);
     }
-  })
+  });
