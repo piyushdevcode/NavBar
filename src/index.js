@@ -7,10 +7,10 @@ btnMenu.addEventListener(
     toggle = !toggle;
     if(toggle){
       navItems.classList.remove("menu-off");
-      console.log("open-menu", navItems);
+      // console.log("open-menu", navItems);
     }
     else{
       navItems.classList.add("menu-off");
-      console.log("close-menu",navItems);
+      // console.log("close-menu",navItems);
     }
   })
